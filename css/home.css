@@ -1,0 +1,74 @@
+.recentlyAddedBooks {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 1px;
+    margin-left: 50px;
+}
+
+.book {
+    width: 250px;
+    height: 400px;
+}
+
+.book img {
+    width: 240px;
+    height: 330px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    color: #2d2d2d;
+    
+}
+.book img:hover{
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 100);
+    transform: scale(1.05);
+}
+
+
+
+.recentlyAddedText , .bookOfTheText{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.allButton {
+    background: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.allButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.bookOfTHeweek {
+    display: flex;
+    justify-content: center;
+}
+
+.bookOfTheWeekDiv {
+    width: 1430px;
+    height: 520px;
+    background: #E9DAC1;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bookOfTheWeekSection img {
+    height: 520px;
+}
+
+.bookName {
+    font-size: larger;
+    margin-bottom: 2px;
+}
+.ij{
+    margin-left: 10px;
+}

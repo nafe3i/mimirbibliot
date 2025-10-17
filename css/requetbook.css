@@ -1,0 +1,45 @@
+.textn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'raleway';
+    font-size: 40px;
+    font-weight: lighter;
+    white-space: pre-line;
+    margin-top: 30px;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+label{
+    font-family: 'raleway';
+    font-size: 40px;
+    font-weight: 300;
+}
+input{
+    width:500px ;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+.recin{
+    width:500px ;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+
+}
+.send{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+
+}

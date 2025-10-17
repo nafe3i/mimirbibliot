@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.side {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.left-side {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 80px;
+  position: relative;
+}
+
+
+
+.navv {
+  font-family: 'popping';
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.navv:hover {
+  color: #444;
+}
+
+.left-side > p {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  
+}
+a{
+  text-decoration: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  
+}
+
+input {
+  height: 42px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0 12px;
+  font-size: 14px;
+  transition: border 0.3s ;
+  text-align: center;
+}
+
+
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  height: 42px;
+  background: linear-gradient(to right, #444, #777);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #333, #666);
+}
+
+.right-side {
+  flex: 1;
+  background: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  margin-top: 0%;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: pre-line;
+}
